@@ -1,40 +1,16 @@
-# Crowdly
+# React + Vite
 
-Crowdly is a modern social media application inspired by Instagram, built using the MERN stack. Users can create profiles, follow other users, share posts and stories, interact through likes and comments, watch reels, search for users, receive notifications, and communicate through real-time messaging.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- User Authentication & Authorization
-- User Profiles
-- Follow / Unfollow Users
-- Posts (Images & Videos)
-- Likes & Comments
-- Stories
-- Reels
-- User Search
-- Real-Time Messaging
-- Notifications
-- Personalized Feed & Recommendations
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Tech Stack
+## React Compiler
 
-Frontend:
-- React
-- Redux Toolkit
-- Tailwind CSS
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Backend:
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT Authentication
-- Socket.IO
+## Expanding the ESLint configuration
 
-Storage:
-- Cloudinary
-
-## Team
-
-- Backend Development: Naveen
-- Frontend Development: Priyanka
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
